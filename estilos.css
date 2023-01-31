@@ -1,0 +1,95 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+   
+
+ body {
+       background-color:#a5def1;
+       
+       }
+
+ header {
+       width: 50rem;
+       height: 5rem;
+       margin: 10px;
+       padding: 10px;
+       border: 10px;
+       text-align: center;
+
+       }
+
+h1 {
+        color: #000000;
+        font-family: 'Allison', cursive;
+        font-family: 'Roboto', sans-serif;
+        font-size: 4rem;
+     
+}
+
+.caja1 {
+  margin: 10px;
+  padding: 10px;
+  border:solid #000000;
+  background-color: white;
+  width: 30rem;
+  height: 50rem;
+  position:absolute;
+  top:30%;
+  left:40%;
+  float:right;
+  text-align: left;
+  
+  
+    }
+
+    .caja2 {
+      margin: 10px;
+      padding: 10px;
+      border:#000000;
+      background-color:#4682b4 ;
+      width: 20rem;
+      height: 50rem;
+      position: absolute;
+      top:30%;
+      left: 10%;
+      float:none;
+      text-align:left;
+    }
+
+     /*Listas*/
+    ul{
+      margin: 10px;
+      padding: 10px;
+      border:20PX;
+      align-content: center;
+      line-height: 4rem;
+      list-style: none;
+      
+    }
+
+    ol{
+      margin: 10px;
+      padding: 10px;
+      border:20PX;
+      align-content: center;
+      line-height: 4rem;
+
+    }
+
+    #nav {
+  background-color: #4682b4;
+  padding: 1em;
+  text-align: right;
+  position:sticky;
+  bottom: 0;
+  width: 200%;
+    }
+
+    html {
+      font-size: 85%;
+    }
+
+   
